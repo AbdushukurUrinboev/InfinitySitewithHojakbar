@@ -1,0 +1,421 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar */
+
+.kurslarBtn {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.applyButton {
+  background: #E79215;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5%;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.applyButton:hover {
+  background-color: white;
+  border: 1px solid #E79215;
+  color: black;
+  transition: 0.5s;
+}
+
+.navbarLinks{
+  width: 60%;
+}
+.navbarLinks a{
+  padding: 2%;
+}
+@media only screen and (max-width: 992px) {
+  .navbarLinks a{
+    display: block;
+    width: 100%;
+  }
+}
+
+
+/* Home page started */
+
+.homeBigDiv {
+  background-image: url(images/home/headerBg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -5% !important;
+  padding-top: 5%;
+}
+
+/* Carousel */
+.carouselButtons {
+  position: absolute;
+  bottom: -50%;
+  left: -50%;
+}
+
+.carouselDot {
+  border-radius: 50%;
+}
+
+
+
+.carouselButtons li .active {
+  margin-top: 15%;
+  border: 5px solid #E79215 !important;
+}
+
+
+.batafsilBtn {
+  border: 1px solid #E79215;
+  background-color: #fff;
+  padding: 2%;
+  padding-left: 7%;
+  padding-right: 7%;
+  position: relative;
+  margin-right: 2%;
+  margin-top: -2%;
+  border-radius: 4px;
+}
+
+.batafsilBtn:hover {
+  background: #E79215;
+  color: white;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .carouselButtons button {
+    position: relative;
+    left: -30%;
+  }
+
+}
+
+.carouselImg {
+  width: 70%;
+}
+
+/* Asosiy yo'nalishlar */
+.asosiyYonalishlar {
+  margin-top: 20%;
+  overflow: hidden;
+}
+
+.asosiyYonalishlar .row div div {
+  border: 1px solid #D1D5DB;
+  border-radius: 10px;
+  padding: 10%;
+
+}
+
+.asosiyYonalishlar .row div div:hover {
+  background: #E79215;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.asosiyYonalishlar .row div div:hover a{
+  color: white;
+  text-decoration: underline;
+}
+
+/* Nega ayan biz? */
+.negaAyanBiz {
+  margin-top: 5%;
+}
+
+.negaAyanBizCol {
+  font-size: 120%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.negaAyanBizCol img {
+  padding: 3%;
+  width: 13%;
+}
+
+.negaBizImg {
+  width: 80%;
+}
+
+/* Bizning galereya */
+.bizningGalereya {
+  margin-top: 8%;
+  overflow: hidden;
+}
+
+.gallery {
+  overflow: hidden;
+  height: 300px;
+}
+
+.gallery:hover .galleryTexts {
+  opacity: 1;
+  transition: 0.5s;
+  transform: translateY(-10px);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 300px !important;
+  cursor: pointer;
+  border-radius: 15px;
+  z-index: -5;
+}
+
+.galleryTexts {
+  margin: 0 auto;
+  position: absolute;
+  bottom: -1%;
+  width: 96%;
+  color: white;
+  padding: 4%;
+  padding-top: 15%;
+  opacity: 0;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 43.17%, #000000 103.74%);
+}
+
+
+/* footer */
+.footer {
+  padding: 5%;
+  padding-bottom: 0;
+  background: #FEF8F1;
+  overflow: hidden;
+  background-image: url(images/footer/InfinitySymbol.png);
+  background-repeat: no-repeat;
+}
+
+
+
+.messengers a{
+  cursor: pointer;
+  padding: 3%;
+}
+.messengers a:hover{
+  box-shadow: -5px 5px 15px #E79215;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.messengers a:hover img{
+  transform: rotateY(360deg);
+  transition: 1s;
+}
+.messengers a:hover  svg{
+  transform: rotateY(360deg);
+  transition: 1s;
+}
+
+
+
+/* Dasturlash */
+.dasturlashKurslar {
+  border: 1px solid #D1D5DB;
+  margin-top: 5%;
+  text-align: end;
+  padding-top: 5%;
+  font-family: 'Poppins';
+}
+
+.dasturlashKurslar img {
+  margin-top: -18%;
+  width: 80%;
+}
+
+.dasturlashKurslar h1 {
+  font-size: 400%;
+}
+
+.dasturlashKurslar h5 {
+  font-size: 150%;
+  margin-bottom: 15%;
+}
+
+.backend {
+  border: 1px solid #D1D5DB;
+  margin-top: 5%;
+  text-align: end;
+  padding-top: 5%;
+  font-family: 'Poppins';
+}
+
+.backendImgs {
+  margin-left: -10%;
+}
+
+.backendImgs img {
+  width: 50%;
+}
+
+.compImg {
+  margin-bottom: -30%;
+}
+
+.backend h1 {
+  font-size: 400%;
+}
+
+.backend p {
+  font-size: 150%;
+  margin-bottom: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  .responsiveMargin {
+    margin-bottom: 15%;
+  }
+}
+
+
+/* English */
+.englishCourse {
+  border: 1px solid #D1D5DB;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: end;
+  padding-top: 5%;
+  font-family: 'Poppins';
+}
+
+.englishCourse img {
+  margin-top: -18%;
+  width: 90%;
+  margin-bottom: -10%;
+}
+
+.englishCourse h1 {
+  font-size: 400%;
+  font-weight: 700;
+}
+
+.englishCourse h5 {
+  font-size: 150%;
+  margin-bottom: 15%;
+}
+
+
+
+/* Contact Us */
+.contactUs {
+  border: 1px solid #D1D5DB;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+.contactUs h5 {
+  color: #D1D5DB;
+}
+
+.contactUs h1 {
+  margin-bottom: 7%;
+}
+
+.contactUs img {
+  width: 100%;
+  height: 100%;
+}
+
+.contactInputs {
+  padding-top: 7%;
+}
+
+.contactInputs input {
+  width: 100%;
+  padding: 2%;
+  border: none;
+  border-bottom: 1px solid #D1D5DB;
+  margin-bottom: 5%;
+}
+
+.contactInputs button {
+  background: #3F3D56;
+  border-radius: 4px;
+  width: 20%;
+  color: white;
+  padding: 2%;
+  border: none;
+  font-weight: 500;
+}
+
+.contactInputs button:hover {
+  color: #3F3D56;
+  background-color: white;
+  border: 1px solid #3F3D56;
+  transition: 0.5s;
+}
+
+/* Foundation */
+.foundationImages img {
+  width: 40%;
+  padding-top: 25%;
+  position: relative;
+  left: -20%;
+}
+
+.foundationImg1 {
+  position: relative;
+  top: 20%;
+  margin-right: -30%;
+  margin-top: 50%;
+}
+
+
+
+/* ABout us */
+.aboutInfinity {
+  padding: 3%;
+}
+
+.aboutInfinity h1 {
+  font-size: 400%;
+  margin-bottom: 15%;
+}
+
+.aboutInfinity p {
+  font-size: 150%;
+  margin-bottom: 5%;
+}
+
+.aboutUsImg img {
+  width: 100%;
+}
+
+
+
+/* Aloqa */
+
+.boglanishMalumoti {
+  padding: 5%;
+  border: 2px solid #D1D5DB;
+}
+
+.boglanishMalumoti h3 {
+  margin-bottom: 5%;
+}
+
+.boglanishMalumoti h5 {
+  margin-bottom: 3%;
+}
+
+.boglanishMalumoti button {
+  width: 30%;
+  margin-top: 5%;
+  margin-right: 2%;
+  border: 1px solid #D1D5DB;
+  border-radius: 5%;
+  padding: 2%;
+  background: white;
+}
+
+.boglanishMalumoti button:hover {
+  background-color: #FDF4E8;
+  transition: 0.3s;
+}
